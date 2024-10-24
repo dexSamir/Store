@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ll novbe\\Desktop\\c#\\Store\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{17EB71DC-3261-4DDE-A208-8BFDE5CC5510}|Store\\Store.csproj|c:\\users\\ll novbe\\desktop\\c#\\store\\store\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17EB71DC-3261-4DDE-A208-8BFDE5CC5510}|Store\\Store.csproj|solutionrelative:store\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C93F6601-5BC2-41B3-B384-FCB1EFC60952}|core\\core.csproj|c:\\users\\ll novbe\\desktop\\c#\\store\\core\\model\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C93F6601-5BC2-41B3-B384-FCB1EFC60952}|core\\core.csproj|solutionrelative:core\\model\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C93F6601-5BC2-41B3-B384-FCB1EFC60952}|core\\core.csproj|c:\\users\\ll novbe\\desktop\\c#\\store\\core\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C93F6601-5BC2-41B3-B384-FCB1EFC60952}|core\\core.csproj|solutionrelative:core\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C93F6601-5BC2-41B3-B384-FCB1EFC60952}|core\\core.csproj|c:\\users\\ll novbe\\desktop\\c#\\store\\core\\helper\\exception\\pricemustbegratherthanzeroexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C93F6601-5BC2-41B3-B384-FCB1EFC60952}|core\\core.csproj|solutionrelative:core\\helper\\exception\\pricemustbegratherthanzeroexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C93F6601-5BC2-41B3-B384-FCB1EFC60952}|core\\core.csproj|c:\\users\\ll novbe\\desktop\\c#\\store\\core\\helper\\enum\\type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C93F6601-5BC2-41B3-B384-FCB1EFC60952}|core\\core.csproj|solutionrelative:core\\helper\\enum\\type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C93F6601-5BC2-41B3-B384-FCB1EFC60952}|core\\core.csproj|c:\\users\\ll novbe\\desktop\\c#\\store\\core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C93F6601-5BC2-41B3-B384-FCB1EFC60952}|core\\core.csproj|solutionrelative:core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "core",
+              "DocumentMoniker": "C:\\Users\\ll novbe\\Desktop\\c#\\Store\\core\\core.csproj",
+              "RelativeDocumentMoniker": "core\\core.csproj",
+              "ToolTip": "C:\\Users\\ll novbe\\Desktop\\c#\\Store\\core\\core.csproj",
+              "RelativeToolTip": "core\\core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-24T13:58:08.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Type.cs",
+              "DocumentMoniker": "C:\\Users\\ll novbe\\Desktop\\c#\\Store\\core\\Helper\\Enum\\Type.cs",
+              "RelativeDocumentMoniker": "core\\Helper\\Enum\\Type.cs",
+              "ToolTip": "C:\\Users\\ll novbe\\Desktop\\c#\\Store\\core\\Helper\\Enum\\Type.cs",
+              "RelativeToolTip": "core\\Helper\\Enum\\Type.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T14:21:23.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\ll novbe\\Desktop\\c#\\Store\\core\\Model\\Product.cs",
+              "RelativeDocumentMoniker": "core\\Model\\Product.cs",
+              "ToolTip": "C:\\Users\\ll novbe\\Desktop\\c#\\Store\\core\\Model\\Product.cs",
+              "RelativeToolTip": "core\\Model\\Product.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T13:47:50.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Store.cs",
+              "DocumentMoniker": "C:\\Users\\ll novbe\\Desktop\\c#\\Store\\core\\Model\\Store.cs",
+              "RelativeDocumentMoniker": "core\\Model\\Store.cs",
+              "ToolTip": "C:\\Users\\ll novbe\\Desktop\\c#\\Store\\core\\Model\\Store.cs",
+              "RelativeToolTip": "core\\Model\\Store.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAowE4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T13:53:35.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PriceMustBeGratherThanZeroException.cs",
+              "DocumentMoniker": "C:\\Users\\ll novbe\\Desktop\\c#\\Store\\core\\Helper\\Exception\\PriceMustBeGratherThanZeroException.cs",
+              "RelativeDocumentMoniker": "core\\Helper\\Exception\\PriceMustBeGratherThanZeroException.cs",
+              "ToolTip": "C:\\Users\\ll novbe\\Desktop\\c#\\Store\\core\\Helper\\Exception\\PriceMustBeGratherThanZeroException.cs",
+              "RelativeToolTip": "core\\Helper\\Exception\\PriceMustBeGratherThanZeroException.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T13:45:56.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ll novbe\\Desktop\\c#\\Store\\Store\\Program.cs",
+              "RelativeDocumentMoniker": "Store\\Program.cs",
+              "ToolTip": "C:\\Users\\ll novbe\\Desktop\\c#\\Store\\Store\\Program.cs",
+              "RelativeToolTip": "Store\\Program.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAQwC8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T13:43:13.278Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

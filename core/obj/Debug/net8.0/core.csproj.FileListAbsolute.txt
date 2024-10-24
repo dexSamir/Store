@@ -1,0 +1,11 @@
+C:\Users\ll novbe\Desktop\c#\Store\core\bin\Debug\net8.0\core.deps.json
+C:\Users\ll novbe\Desktop\c#\Store\core\bin\Debug\net8.0\core.dll
+C:\Users\ll novbe\Desktop\c#\Store\core\bin\Debug\net8.0\core.pdb
+C:\Users\ll novbe\Desktop\c#\Store\core\obj\Debug\net8.0\core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ll novbe\Desktop\c#\Store\core\obj\Debug\net8.0\core.AssemblyInfoInputs.cache
+C:\Users\ll novbe\Desktop\c#\Store\core\obj\Debug\net8.0\core.AssemblyInfo.cs
+C:\Users\ll novbe\Desktop\c#\Store\core\obj\Debug\net8.0\core.csproj.CoreCompileInputs.cache
+C:\Users\ll novbe\Desktop\c#\Store\core\obj\Debug\net8.0\core.dll
+C:\Users\ll novbe\Desktop\c#\Store\core\obj\Debug\net8.0\refint\core.dll
+C:\Users\ll novbe\Desktop\c#\Store\core\obj\Debug\net8.0\core.pdb
+C:\Users\ll novbe\Desktop\c#\Store\core\obj\Debug\net8.0\ref\core.dll
