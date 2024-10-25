@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{17EB71DC-3261-4DDE-A208-8BFDE5CC5510}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.StoreTask PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Store/Program.cs">
+    <Files>
+      <File FileName="core/Helper/Enum/Type.cs" Line="17" Column="1" />
+      <File FileName="core/Helper/Exception/PriceMustBeGratherThanZeroException.cs" Line="13" Column="13" />
+      <File FileName="core/Model/Product.cs" Line="18" Column="41" />
+      <File FileName="core/Model/Store.cs" Line="20" Column="10" />
+      <File FileName="Store/Program.cs" Line="110" Column="19" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Store">
+            <Node name="core" expanded="True">
+              <Node name="Helper" expanded="True">
+                <Node name="Enum" expanded="True" />
+                <Node name="Exception" expanded="True" />
+              </Node>
+              <Node name="Model" expanded="True" />
+            </Node>
+            <Node name="StoreTask">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

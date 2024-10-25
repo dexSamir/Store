@@ -1,18 +1,37 @@
-C:\Users\ll novbe\Desktop\c#\Store\Store\bin\Debug\net8.0\StoreTask.exe
-C:\Users\ll novbe\Desktop\c#\Store\Store\bin\Debug\net8.0\StoreTask.deps.json
-C:\Users\ll novbe\Desktop\c#\Store\Store\bin\Debug\net8.0\StoreTask.runtimeconfig.json
-C:\Users\ll novbe\Desktop\c#\Store\Store\bin\Debug\net8.0\StoreTask.dll
-C:\Users\ll novbe\Desktop\c#\Store\Store\bin\Debug\net8.0\StoreTask.pdb
-C:\Users\ll novbe\Desktop\c#\Store\Store\bin\Debug\net8.0\core.dll
-C:\Users\ll novbe\Desktop\c#\Store\Store\bin\Debug\net8.0\core.pdb
-C:\Users\ll novbe\Desktop\c#\Store\Store\obj\Debug\net8.0\StoreTask.csproj.AssemblyReference.cache
-C:\Users\ll novbe\Desktop\c#\Store\Store\obj\Debug\net8.0\StoreTask.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ll novbe\Desktop\c#\Store\Store\obj\Debug\net8.0\StoreTask.AssemblyInfoInputs.cache
-C:\Users\ll novbe\Desktop\c#\Store\Store\obj\Debug\net8.0\StoreTask.AssemblyInfo.cs
-C:\Users\ll novbe\Desktop\c#\Store\Store\obj\Debug\net8.0\StoreTask.csproj.CoreCompileInputs.cache
-C:\Users\ll novbe\Desktop\c#\Store\Store\obj\Debug\net8.0\StoreTask.csproj.Up2Date
-C:\Users\ll novbe\Desktop\c#\Store\Store\obj\Debug\net8.0\StoreTask.dll
-C:\Users\ll novbe\Desktop\c#\Store\Store\obj\Debug\net8.0\refint\StoreTask.dll
-C:\Users\ll novbe\Desktop\c#\Store\Store\obj\Debug\net8.0\StoreTask.pdb
-C:\Users\ll novbe\Desktop\c#\Store\Store\obj\Debug\net8.0\StoreTask.genruntimeconfig.cache
-C:\Users\ll novbe\Desktop\c#\Store\Store\obj\Debug\net8.0\ref\StoreTask.dll
+C:/Users/ll novbe/Desktop/c#/Store/Store/bin/Debug/net8.0/StoreTask.exe
+C:/Users/ll novbe/Desktop/c#/Store/Store/bin/Debug/net8.0/StoreTask.deps.json
+C:/Users/ll novbe/Desktop/c#/Store/Store/bin/Debug/net8.0/StoreTask.runtimeconfig.json
+C:/Users/ll novbe/Desktop/c#/Store/Store/bin/Debug/net8.0/StoreTask.dll
+C:/Users/ll novbe/Desktop/c#/Store/Store/bin/Debug/net8.0/StoreTask.pdb
+C:/Users/ll novbe/Desktop/c#/Store/Store/bin/Debug/net8.0/core.dll
+C:/Users/ll novbe/Desktop/c#/Store/Store/bin/Debug/net8.0/core.pdb
+C:/Users/ll novbe/Desktop/c#/Store/Store/obj/Debug/net8.0/StoreTask.csproj.AssemblyReference.cache
+C:/Users/ll novbe/Desktop/c#/Store/Store/obj/Debug/net8.0/StoreTask.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/ll novbe/Desktop/c#/Store/Store/obj/Debug/net8.0/StoreTask.AssemblyInfoInputs.cache
+C:/Users/ll novbe/Desktop/c#/Store/Store/obj/Debug/net8.0/StoreTask.AssemblyInfo.cs
+C:/Users/ll novbe/Desktop/c#/Store/Store/obj/Debug/net8.0/StoreTask.csproj.CoreCompileInputs.cache
+C:/Users/ll novbe/Desktop/c#/Store/Store/obj/Debug/net8.0/StoreTask.csproj.Up2Date
+C:/Users/ll novbe/Desktop/c#/Store/Store/obj/Debug/net8.0/StoreTask.dll
+C:/Users/ll novbe/Desktop/c#/Store/Store/obj/Debug/net8.0/refint/StoreTask.dll
+C:/Users/ll novbe/Desktop/c#/Store/Store/obj/Debug/net8.0/StoreTask.pdb
+C:/Users/ll novbe/Desktop/c#/Store/Store/obj/Debug/net8.0/StoreTask.genruntimeconfig.cache
+C:/Users/ll novbe/Desktop/c#/Store/Store/obj/Debug/net8.0/ref/StoreTask.dll
+/Users/samirhebibov/Desktop/Store/Store/bin/Debug/net8.0/StoreTask
+/Users/samirhebibov/Desktop/Store/Store/bin/Debug/net8.0/StoreTask.deps.json
+/Users/samirhebibov/Desktop/Store/Store/bin/Debug/net8.0/StoreTask.runtimeconfig.json
+/Users/samirhebibov/Desktop/Store/Store/bin/Debug/net8.0/StoreTask.dll
+/Users/samirhebibov/Desktop/Store/Store/bin/Debug/net8.0/StoreTask.pdb
+/Users/samirhebibov/Desktop/Store/Store/bin/Debug/net8.0/core.dll
+/Users/samirhebibov/Desktop/Store/Store/bin/Debug/net8.0/core.pdb
+/Users/samirhebibov/Desktop/Store/Store/obj/Debug/net8.0/StoreTask.csproj.AssemblyReference.cache
+/Users/samirhebibov/Desktop/Store/Store/obj/Debug/net8.0/StoreTask.GeneratedMSBuildEditorConfig.editorconfig
+/Users/samirhebibov/Desktop/Store/Store/obj/Debug/net8.0/StoreTask.AssemblyInfoInputs.cache
+/Users/samirhebibov/Desktop/Store/Store/obj/Debug/net8.0/StoreTask.AssemblyInfo.cs
+/Users/samirhebibov/Desktop/Store/Store/obj/Debug/net8.0/StoreTask.csproj.CoreCompileInputs.cache
+/Users/samirhebibov/Desktop/Store/Store/obj/Debug/net8.0/StoreTask.sourcelink.json
+/Users/samirhebibov/Desktop/Store/Store/obj/Debug/net8.0/StoreTask.csproj.CopyComplete
+/Users/samirhebibov/Desktop/Store/Store/obj/Debug/net8.0/StoreTask.dll
+/Users/samirhebibov/Desktop/Store/Store/obj/Debug/net8.0/refint/StoreTask.dll
+/Users/samirhebibov/Desktop/Store/Store/obj/Debug/net8.0/StoreTask.pdb
+/Users/samirhebibov/Desktop/Store/Store/obj/Debug/net8.0/StoreTask.genruntimeconfig.cache
+/Users/samirhebibov/Desktop/Store/Store/obj/Debug/net8.0/ref/StoreTask.dll

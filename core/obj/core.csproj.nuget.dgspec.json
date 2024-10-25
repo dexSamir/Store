@@ -1,28 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ll novbe\\Desktop\\c#\\Store\\core\\core.csproj": {}
+    "/Users/samirhebibov/Desktop/Store/core/core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ll novbe\\Desktop\\c#\\Store\\core\\core.csproj": {
+    "/Users/samirhebibov/Desktop/Store/core/core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ll novbe\\Desktop\\c#\\Store\\core\\core.csproj",
+        "projectUniqueName": "/Users/samirhebibov/Desktop/Store/core/core.csproj",
         "projectName": "core",
-        "projectPath": "C:\\Users\\ll novbe\\Desktop\\c#\\Store\\core\\core.csproj",
-        "packagesPath": "C:\\Users\\ll novbe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ll novbe\\Desktop\\c#\\Store\\core\\obj\\",
+        "projectPath": "/Users/samirhebibov/Desktop/Store/core/core.csproj",
+        "packagesPath": "/Users/samirhebibov/.nuget/packages/",
+        "outputPath": "/Users/samirhebibov/Desktop/Store/core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ll novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/samirhebibov/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -35,11 +33,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -61,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

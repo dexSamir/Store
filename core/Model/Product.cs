@@ -9,14 +9,15 @@ namespace core.Model
 {
     public class Product
     {
-        private int _id; 
+        private static int _id = 0; 
         private string _name;
         private double _price;
         private Helper.Enum.Type _type;
 
-        public int Id { get; set;  }
+        public int Id { get ; private set;  }
         public string Name { get; set; }
         public Helper.Enum.Type Type { get; set; }
+
         public double Price {
             get
             {
@@ -41,6 +42,10 @@ namespace core.Model
             Name = name;
             Price = price; 
             Type = type;
+        }
+        public void ShowFullInfo()
+        {
+            Console.WriteLine($"Id:{Id} Name:{Name} Price:{Price} Type:{Type}\n");
         }
     }
 }

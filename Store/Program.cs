@@ -9,29 +9,32 @@ namespace StoreTask
     {
         static void Main(string[] args)
         {
-            Store store = null; 
+            Store store = null;
             bool isfalse = false;
+            bool flag = false;
             int choise;
             string storeName;
             string productName;
             double productPrise;
+            int productId;
             Type productType = new Type();
-            int productNumber; 
+            int productNumber;
             do
             {
-                Console.WriteLine("1. Store elave Edin \n2. Product Elave Edin \n3. Bir Product Silin \n4. Bir product haqqinda bilgi elde edin \n5. Type-na gore axtaris edin. \n6. Adina gore axtaris edin. \n7. EXIT");
                 Console.WriteLine("Bir Emeliyyat daxil edin: ");
+                Console.WriteLine("1. Store elave Edin \n2. Product Elave Edin \n3. Bir Product Silin \n4. Bir product haqqinda bilgi elde edin \n5. Type-na gore axtaris edin \n6. Adina gore axtaris edin \n7. Show Full Products \n0. EXIT");
 
                 string input = Console.ReadLine();
+
                 isfalse = int.TryParse(input, out choise);
-                do
+                while (!isfalse)
                 {
                     Console.WriteLine("Eded daxil edin!");
                     input = Console.ReadLine();
                     isfalse = int.TryParse(input, out choise);
                 }
-                while (!isfalse);
                 isfalse = false;
+
                 switch (choise)
                 {
                     case 1:
@@ -40,59 +43,187 @@ namespace StoreTask
                         store = new Store(storeName);
                         Console.WriteLine($"{storeName} adli Store yaradildi \n");
                         break;
+
                     case 2:
-                        if(store == null)
+                        if (store == null)
                         {
                             Console.WriteLine("Store yaradilmadan diger emeliyatlar yerine yetirile bilmez!");
                             break;
                         }
+
                         Console.WriteLine("Product Name daxil edin:");
                         productName = Console.ReadLine();
-                        Console.WriteLine("Product Name daxil edin: ");
-                        productPrise = double.Parse(Console.ReadLine()); 
 
                         try
                         {
-
+                            Console.WriteLine("Product qiymetini daxil edin:");
                             productPrise = double.Parse(Console.ReadLine());
                         }
                         catch (PriceMustBeGratherThanZeroException ex)
                         {
+                            flag = true; 
                             Console.WriteLine(ex.Message);
+                            break;
+                        }
+                        
+
+                        while (!flag)
+                        {
+                            Console.WriteLine("Product Type secin: \n1. Baker \n2. Drink \n3. Meat \n4. Diary \n0. Menu");
+                            string type = Console.ReadLine();
+
+                            isfalse = int.TryParse(type, out productNumber);
+                            while (!isfalse)
+                            {
+                                Console.WriteLine("Duzgun eded daxil edin");
+                                type = Console.ReadLine();
+                                isfalse = int.TryParse(type, out productNumber);
+                            }
+
+                            if (productNumber == 0)
+                            {
+                                Console.WriteLine("Menyua qayidilir");
+                                break;
+                            }
+
+                            isfalse = false;
+
+                            switch (productNumber)
+                            {
+                                case 1:
+                                    productType = Type.Baker;
+                                    flag = true;
+                                    break;
+                                case 2:
+                                    productType = Type.Drink;
+                                    flag = true;
+                                    break;
+                                case 3:
+                                    productType = Type.Meat;
+                                    flag = true;
+                                    break;
+                                case 4:
+                                    productType = Type.Diary;
+                                    flag = true;
+                                    break;
+                                default:
+                                    Console.WriteLine("Duzgun secim edin");
+                                    break;
+                            }
                         }
 
-                        Console.WriteLine("Product Type secin: \n 1. Baker \n2. Drink \n3. Meat \n4. Diary");
-                        string type = Console.ReadLine();
-                        isfalse = int.TryParse(type, out productNumber);
+                        if (flag)
+                        {
+                            Product product = new Product(productName, productPrise, productType);
+                            store.AddProducts(product);
+                            Console.WriteLine($"Product {productName} yaradildi");
+                        }
+                        break;
 
-                        do
+                    case 3:
+                        if (store == null)
+                        {
+                            Console.WriteLine("Store yaradilmadan diger emeliyatlar yerine yetirile bilmez!");
+                            break;
+                        }
+                        Console.WriteLine("Silmek istediyiniz Product No-sunu daxil edin:");
+                        isfalse = int.TryParse(Console.ReadLine(), out productId);
+                        while (!isfalse)
                         {
                             Console.WriteLine("Eded daxil edin!");
-                            type = Console.ReadLine();
-                            isfalse = int.TryParse(type, out productNumber);
+                            isfalse = int.TryParse(Console.ReadLine(), out productId);
                         }
-                        while (!isfalse);
+                        store.RemoveProduct(productId);
+                        store.ShowFullInfo(); 
+                        isfalse = false;
+                        break;
+
+                    case 4:
+                        if (store == null)
+                        {
+                            Console.WriteLine("Store yaradilmadan diger emeliyatlar yerine yetirile bilmez!");
+                            break;
+                        }
+                        Console.WriteLine("Product No-sunu daxil edin:");
+                        isfalse = int.TryParse(Console.ReadLine(), out productId);
+                        while (!isfalse)
+                        {
+                            Console.WriteLine("Eded daxil edin!");
+                            isfalse = int.TryParse(Console.ReadLine(), out productId);
+                        }
+                        store.GetProduct(productId);
                         isfalse = false;
 
+                        break;
+
+                    case 5:
+                        if (store == null)
+                        {
+                            Console.WriteLine("Store yaradilmadan diger emeliyatlar yerine yetirile bilmez!");
+                            break;
+                        }
+                        Console.WriteLine("Type secin: \n1. Baker \n2. Drink \n3. Meat \n4. Diary");
+                        isfalse = int.TryParse(Console.ReadLine(), out productNumber);
+                        while (!isfalse)
+                        {
+                            Console.WriteLine("Eded daxil edin!");
+                            isfalse = int.TryParse(Console.ReadLine(), out productNumber);
+                        }
+                        isfalse = false;
+
+                        Product[] foundProductsByType = new Product[0];
                         switch (productNumber)
                         {
                             case 1:
-                                productType = Type.Baker;
+                                foundProductsByType = store.FilterProductByType(Type.Baker);
                                 break;
                             case 2:
-                                productType = Type.Drink;
+                                foundProductsByType = store.FilterProductByType(Type.Drink);
                                 break;
                             case 3:
-                                productType = Type.Meat;
+                                foundProductsByType = store.FilterProductByType(Type.Meat);
                                 break;
                             case 4:
-                                productType = Type.Diary;
-                                break;
-                            default:
-                                Console.WriteLine("daxil etdiyiniz edede uygun emeliyyat movcu deyil!");
+                                foundProductsByType = store.FilterProductByType(Type.Diary);
                                 break;
                         }
-                        Product product = new Product(productName, productPrise,productType);
+                        if (foundProductsByType.Length > 0)
+                        {
+                            foreach (var product in foundProductsByType)
+                            {
+                                product.ShowFullInfo();
+                            }
+                        }
+                        break;
+
+                    case 6:
+                        if (store == null)
+                        {
+                            Console.WriteLine("Store yaradilmadan diger emeliyatlar yerine yetirile bilmez!");
+                            break;
+                        }
+                        Console.WriteLine("Product adini daxil edin:");
+                        string searchName = Console.ReadLine();
+                        Product[] foundProductsByName = store.FilterProductByName(searchName);
+                        if (foundProductsByName.Length > 0)
+                        {
+                            foreach (var product in foundProductsByName)
+                            {
+                                product.ShowFullInfo();
+                            }
+                        }
+
+                        break;
+                    case 7:
+                        store.ShowFullInfo(); 
+                        break; 
+                    case 0:
+                        isfalse = true;
+                        Console.WriteLine("Proqram sonlandi");
+                        break;
+
+                    default:
+                        Console.WriteLine("Duzgun secim edin");
                         break;
 
                 }
